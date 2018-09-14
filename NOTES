@@ -1,0 +1,19 @@
+
+    Artists have many songs and a song belongs to an artist.
+    Artist --<Songs
+
+    Artists have many genres through songs.
+
+    Songs belong to a genre.
+
+    A genre has many songs.
+    A genre has many artists through songs.
+
+
+  ********** artist --<Songs>-genres  ********
+
+first step: artist's songs or genres,
+            a song's artist or genre,
+            and a genre's songs and artists
+
+            - provided methods on our classes
